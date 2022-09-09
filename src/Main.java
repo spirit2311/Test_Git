@@ -1,7 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello Pidors!");
-        System.out.println("By Pidors!");
+    int c;
+    c = sum(15,10);
+        System.out.println(c);
+    }
+    static public int sum(int a, int b){
+        return a + b;
     }
 }
